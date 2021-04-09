@@ -5,6 +5,12 @@ html,body{
     padding: 0;
 }
 
+@media only screen and (min-width: 450px) {
+   .box{
+       width: 20%;
+   }
+  }
+
 .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -15,5 +21,4 @@ html,body{
     border: 0.5rem solid;
     margin: 2%;
     height: 15rem;
-    width: 20%;
 }
